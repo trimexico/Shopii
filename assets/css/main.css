@@ -897,6 +897,11 @@
     position: absolute;
 }
 
+.trademark__item-input:checked ~ span {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
 .trademark__item-input:hover {
     cursor: pointer;
 }
