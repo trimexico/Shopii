@@ -103,6 +103,10 @@
         right: 0;
     }
 
+    .header__search-input {
+        padding: 0;
+    }
+
     .pagination-item {
         margin: 0;
     }
@@ -115,6 +119,10 @@
 
     .grid-content {
         margin: 0 4px;
+    }
+
+    .home-product-item__price-old {
+        margin-left: 10px;
     }
 
     .footer {
