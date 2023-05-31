@@ -137,6 +137,19 @@
         width: 35%;
     }
 
+    .address__position-item-link-mobile {
+        letter-spacing: 0.7px;
+        margin-bottom: 16px;
+    }
+
+    .grid-content {
+        padding-top: 4px;
+    }
+
+    .address__registerd-img {
+        margin-top: 16px;
+    }
+
     @keyframes mobileSearchSideIn {
         from {
             opacity: 0;
