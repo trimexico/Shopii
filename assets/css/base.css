@@ -8,6 +8,7 @@
     --header-height: 120px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
     --evalute-color: rgb(216, 218, 94);
+    --header-sort-bar-height: 46px;
 }
 
 * {
@@ -21,16 +22,7 @@ html {
     box-sizing: border-box;
 }
 
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
+/* Responsive */
 .grid__row {
     display: flex;
     flex-wrap: wrap;
